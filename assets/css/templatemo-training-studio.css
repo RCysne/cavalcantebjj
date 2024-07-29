@@ -136,6 +136,10 @@ body {
   color: #fff;
 }
 
+.gallery {
+  padding: 0 0 5rem 0;
+}
+
 
 
 /* RESPONSIVE < 991px */
@@ -634,14 +638,6 @@ header
   .header-area .main-nav .nav {
     display: flex !important;
   }
-
-  /* #contact-us #map {
-    width: 100%;
-  }
-
-  #contact-us #map iframe {
-    width: 5rem;
-  } */
 
 }
 

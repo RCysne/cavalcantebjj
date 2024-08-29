@@ -677,13 +677,13 @@ header
     height: 0px;
   }
 
-  .header-area .title-banner {
+  /* .header-area .title-banner {
     width: 100%;
   }
 
   .header-area .title-banner h6 {
     width: 100%;
-  }
+  } */
 
   #contact-us .contato-footer {
     width: 100%;
@@ -1029,8 +1029,6 @@ schedule
 }
 #schedule .filters ul li:after {
   content: " ";
-  margin-left: 10px;
-  /* color: #fff; */
 }
 #schedule .filters ul li:last-child {
   margin-right: 0px;

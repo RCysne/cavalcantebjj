@@ -10,7 +10,6 @@ console.log(mainButton)
 menuTrigger.addEventListener('click', () => {
   menuTrigger.classList.toggle('active');
   navUl.classList.toggle('nav');
-
 });
 
 

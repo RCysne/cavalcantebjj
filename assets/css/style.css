@@ -142,7 +142,25 @@ body {
 
 .insta {
   padding-right: 5px;
-} 
+}
+
+.trainer-item {
+  height: 100%;
+}
+
+.down-content {
+  height: 100%;
+}
+
+.social-top {
+  margin-top: 5rem;
+}
+
+.insta-top {
+  font-size: 3rem;
+  color: #fff;
+  box-shadow: 1px 1px 5px #232d39;
+}
 
 /*  FIM IMAGENS */
 
@@ -656,14 +674,6 @@ header
   .header-area .main-nav .nav li.submenu:hover ul, .header-area .main-nav .nav li.submenu:focus ul {
     height: 0px;
   }
-
-  /* .header-area .title-banner {
-    width: 100%;
-  }
-
-  .header-area .title-banner h6 {
-    width: 100%;
-  } */
 
   #contact-us .contato-footer {
     width: 100%;

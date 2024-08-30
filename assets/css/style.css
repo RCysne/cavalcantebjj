@@ -1075,8 +1075,6 @@ responsive
   }
 }
 
-
-
 /* RESPONSIVE < 991px */
 
 @media (max-width: 991px) {
@@ -1094,9 +1092,7 @@ responsive
   .mobile-bottom-fix-big {
     margin-bottom: 60px;
   }
-
 }
-
 
 /* RESPONSIVE MAX 992px */
 
@@ -1150,8 +1146,6 @@ responsive
   }
 
 }
-
-
 
 /* RESPONSIVE < 767px */
 
@@ -1305,7 +1299,7 @@ responsive
 
 }
 
-
+/* RESPONSIVIDADE < 728px */
 
 @media (max-width: 728px) {
 
@@ -1356,12 +1350,22 @@ responsive
   #logo-footer {
     padding-top: 3rem;
   }
-
 }
+
+/*  RESPONSIVIDADE < 500px */
 
 @media (max-width: 500px) {
   .monday, .tuesday, .wednesday, .thursday, .friday  {
     font-size: .3rem;
     padding: 4px;
+  }
+
+  .title-banner h6 {
+    font-size: 15px !important;
+    padding-bottom: 10px;
+  }
+
+  .title-banner h2 {
+    padding-bottom: 15px;
   }
 }

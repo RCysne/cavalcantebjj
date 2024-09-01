@@ -906,24 +906,24 @@ contact
 */
 
 #contact-us {
-  margin-top: 140px;
+  margin-top: 70px;
 }
 
 #contact-us .container-fluid .col-lg-6 {
   padding: 0px;
 }
 
-#contact-us .contact-form {
+/* #contact-us .contact-form {
   padding: 80px;
   background-image: url(../images/contact-bg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 #contact-us .contact-form #contact {
   background-color: #fff;
-  padding: 40px;
+  padding: 20px;
   border-radius: 5px;
 }
 
@@ -949,6 +949,28 @@ footer p a {
 
 footer p a:hover {
   color: var(--primary-color);
+}
+
+#contact-us  .container{
+  width: 100%;
+}
+
+.contact-footer {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#div-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+#map-google {
+  width: 100%;
+}
+
+#logo-footer {
+  padding-left: 1rem;
 }
 
 
@@ -1297,6 +1319,14 @@ responsive
     max-width: 100%;
   }
 
+  .contact-footer #div-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#div-footer div {
+  margin: 0 auto;
 }
 
 /* RESPONSIVIDADE < 728px */
@@ -1355,10 +1385,18 @@ responsive
 /*  RESPONSIVIDADE < 500px */
 
 @media (max-width: 500px) {
+  
+  #segunda, #terca, #quarta, #quinta, #sexta  {
+    padding-right: 0 !important;
+  }
+  
+  
   .monday, .tuesday, .wednesday, .thursday, .friday  {
     font-size: .3rem;
     padding: 4px;
   }
+
+
 
   .title-banner h6 {
     font-size: 15px !important;
